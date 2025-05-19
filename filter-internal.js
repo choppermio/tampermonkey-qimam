@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Filter Select Options - Merge Filters with Prefix Removal
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.7
 // @description  Merge filters ignoring spaces, 'و' spaces, and remove "قسم" prefix to combine similar filters - for https://www.qimam.org.sa/rafed/operations_request.php only
 // @match        https://www.qimam.org.sa/rafed/operations_request.php
 // @grant        none
@@ -11,6 +11,7 @@
     'use strict';
 
     window.addEventListener('load', () => {
+        alert('something')
         const select = document.querySelector('.data_table select');
         if (!select) {
             console.warn('[Tampermonkey] Select element inside .data_table not found');
