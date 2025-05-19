@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Filter Select Options - Merge Filters with Prefix Removal
 // @namespace    http://tampermonkey.net/
-// @version      1.8
+// @version      1.9
 // @description  Merge filters ignoring spaces, 'و' spaces, and remove "قسم" prefix to combine similar filters - for https://www.qimam.org.sa/rafed/operations_request.php only
 // @match        https://www.qimam.org.sa/rafed/operations_request.php
 // @grant        none
